@@ -47,8 +47,8 @@ const AnimatedHeaderSection = ({ subTitle, title, text, textColor, withScrollTri
                     <div className={`relative px-10 ${textColor}`}>
                         <div className="absolute inset-x-0 border-t-2" />
                         <div className="py-12 sm:py-16 text-end">
-                            <AnimatedTextLines text={text} className={`font-light uppercase value-text-responsive${textColor}`} />
-                                
+                            <AnimatedTextLines text={text} className={`font-light uppercase value-text-responsive ${textColor}`} />
+
                             
                         </div>
                     </div>
