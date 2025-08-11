@@ -31,7 +31,7 @@ const Services = () => {
             />
             {servicesData.map((service, index) => (
                 <div ref={(el) => (serviceRefs.current[index] = el )} key={index} className="sticky px-10 pt-6 text-white bg-black
-                border-t-2 border-white/30"
+                border-t-2 border-white/30 top-0"
                 style={isDekstop ? {
                  top: `cal(10vh + ${index * 5})`,
                  marginBottom: `${(servicesData.length - index - 1) * 5}rem`,
@@ -53,7 +53,7 @@ const Services = () => {
                                         </span>
                                     </h3>
                                     {itemIndex < service.items.length -1 && (
-                                    <div className="w-full h-px my-2 bg-white/50" />
+                                    <div className="w-full h-px my-2 bg-white/30" />
                                     )}
                                 </div>
                             ))}

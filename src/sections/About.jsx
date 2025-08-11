@@ -43,6 +43,7 @@ const About = () => {
 
     return (
         <section id="about" className="min-h-screen bg-black rounded-b-4xl">
+            
             <AnimatedHeaderSection subTitle={"Code with purpose, Built to scale"} title={"About"} text={text} textColor={"text-white"}
             withScrollTrigger = {true} />
             <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide
