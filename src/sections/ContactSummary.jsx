@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 const ContactSummary = () => {
     const containerRef = useRef(null);
-    const items = ["Inovation", "Perfection", "Trust", "Collaboration", "Excellence"];
+    const items = ["Inovation",  "Trust", "Collaboration", "Excellence"];
     const items2 = ["contact us", "conatct us", "contact us", "contact us", "contact us", ]
 
     useGSAP(() => {gsap.to(containerRef.current, {
@@ -26,8 +26,9 @@ const ContactSummary = () => {
             <div className="overflow-hidden font-light text-center contact-text-responsive">
                 <p>
                     " Let's build a <br />
-                    <span className="font-normal">memorable</span> & <span className="italic">inspiring</span> <br /> web application
-                     <span className="text-gold">together</span> "
+                    <span className="font-normal">memorable</span> & <span className="italic">inspiring</span>
+                     <br />web application
+                     <span className="text-gold"> together</span> "
                 </p>
             </div>
            <Marquee 
