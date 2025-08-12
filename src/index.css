@@ -1,27 +1,30 @@
 @import "tailwindcss";
 
+/* Amiamie Regular */
 @font-face {
-  font-family: "Animate";
-  src: url("/fonts/off/Animate-Regular.otf") format("opentype"),
-  url("/fonts/tff/Animate-Regular.ttf") format("truetype");
+  font-family: "Amiamie";
+  src: url("/fonts/otf/Amiamie-Regular.otf") format("opentype"),
+    url("/fonts/ttf/Amiamie-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* Amiamie Regular Italic */
 @font-face {
-  font-family: "Animate";
-  src: url("/fonts/otf/Animate-Italic.otf") format("opentype"),
-  url("/fonts/tff/Animate-Italic.tff") format("truetype");
+  font-family: "Amiamie";
+  src: url("/fonts/otf/Amiamie-Italic.otf") format("opentype"),
+    url("/fonts/ttf/Amiamie-Italic.ttf") format("truetype");
   font-weight: 400;
-  font-style: Italic;
+  font-style: italic;
   font-display: swap;
 }
 
+/* Amiamie Light */
 @font-face {
-  font-family: "Animate";
-  src: url("/fonts/Animate-Light.otf") format("opentype"),
-  url("/fonts/tff/Animate-Light.tff") format("truetype");
+  font-family: "Amiamie";
+  src: url("/fonts/otf/Amiamie-Light.otf") format("opentype"),
+    url("/fonts/ttf/Amiamie-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
