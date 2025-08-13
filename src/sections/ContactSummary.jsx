@@ -31,13 +31,15 @@ const ContactSummary = () => {
                      <span className="text-gold"> together</span> "
                 </p>
             </div>
-           <Marquee 
-           items={items2} 
-           reverse={true} 
-           className="text-black bg-transparent border-y-2"
-           iconClassName="strokegold stroke-2 text-primary"
-           icon="material-symbols-light:square"
-        />
+
+            <Marquee
+        items={items2}
+        reverse={true}
+        className="text-black bg-transparent border-y-2"
+        iconClassName="stroke-gold stroke-2 text-primary"
+        icon="material-symbols-light:square"
+      />
+           
         </section>
     );
 };
