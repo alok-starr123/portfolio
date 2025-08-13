@@ -173,6 +173,6 @@ export const projects = [
 export const socials = [
   { name: "X", href: "https://x.com/home?lang=en" },
   
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
+
   { name: "GitHub", href: "https://github.com/" },
 ];
